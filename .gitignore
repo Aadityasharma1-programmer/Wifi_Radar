@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+alerts.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ESP-IDF build artifacts
+firmware/**/build/
+firmware/**/sdkconfig
+firmware/**/sdkconfig.old
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
